@@ -1,1 +1,7 @@
 What happens when you initialize a repository? Why do you need to do it?
+
+Git will put its infrastruture elements to the repository. Only using this infrastructure elements, Git can move forward and assist us to do the commits and the other operations.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Working directory and repository are the superset with all the files but staging area contains only the selected files to make a commit based on the logical implementation that you are going to commit.
