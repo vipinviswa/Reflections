@@ -5,3 +5,7 @@ Git will put its infrastruture elements to the repository. Only using this infra
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 Working directory and repository are the superset with all the files but staging area contains only the selected files to make a commit based on the logical implementation that you are going to commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+I can use git add to selectively add the files to the staging area. After that, i can use git diff --staged to compare the items in the staging area to the one in repository. During this comparison, i can ensure that everything is based on the logical unit that i am intended to check-in.
