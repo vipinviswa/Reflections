@@ -21,3 +21,7 @@ It is very easy to look through the bransh structure.
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The functionalities got merged nicely. If there is any conflict, then the auto merging won't take palce and will ask us to merge the changes. It oculd be easy to to use the diagram to understand the merge also to find the parent of a commit.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging can not take care about conflicts made on same line. We can do manual merging only if there is a conflict.
