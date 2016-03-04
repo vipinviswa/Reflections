@@ -10,3 +10,5 @@ Branch is the logical separation of different streams in a repository.
 If i need to work on another persons repository independently, then i will fork the repository and work on it.
 If i need to get a repository to my local computer, i will use clone
 If i need to independently work on a different feature of a project, i will create a branch.
+4. What is the benefit of having a copy of the last known state of the remote stored locally?
+At any point of time, we can compare our modified branch with the local copy of the master. Also it is easy to get latest from the remote to that local copy and we can compare our change with the current version of the local copy and can merge the changes easly.
