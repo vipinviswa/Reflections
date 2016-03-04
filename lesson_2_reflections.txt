@@ -13,3 +13,7 @@ I can use git add to selectively add the files to the staging area. After that, 
 4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 If i need to try soemthing experimenting or to do some code refactoring, etc. Branches will create a separate area to work on instead of disturbing the main branch.
+
+5. How do the diagrams help you visualize the branch structure?
+
+It is very easy to look through the bransh structure.
