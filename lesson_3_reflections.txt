@@ -14,3 +14,5 @@ If i need to independently work on a different feature of a project, i will crea
 At any point of time, we can compare our modified branch with the local copy of the master. Also it is easy to get latest from the remote to that local copy and we can compare our change with the current version of the local copy and can merge the changes easly.
 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Most probably, i will send the source code. GitHub and Git is the easiest way.
+6. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I can work on a feature and make the changes in a separate branch. This will help me to switch to main branch if there is any necesity of doing something urgent in that branch. Also it is easy to raise pull requests.
